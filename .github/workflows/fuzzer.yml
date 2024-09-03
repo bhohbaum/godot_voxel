@@ -83,7 +83,7 @@ jobs:
 
       # Download binaries from
       - name: Download Executed project
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: godot-linux
           path: bin
